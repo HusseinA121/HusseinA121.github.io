@@ -28,9 +28,10 @@ footer {
 
 /* Profile Picture Styling */
 .profile-pic {
-    width: 200px; /* Adjust width as needed */
-    height: 20px; /* Keeps aspect ratio */
+    width: 200px; /* Adjust width */
+    height: 200px; /* Set same height as width for a perfect circle */
+    object-fit: cover; /* Ensures the image does not stretch */
     border-radius: 50%; /* Makes it circular */
-    border: 3px solid #007bff; /* Blue border */
+    border: 3px solid #007bff; /* Adds a blue border */
     margin-top: 10px; /* Adds spacing */
 }
