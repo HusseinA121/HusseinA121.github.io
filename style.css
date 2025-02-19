@@ -73,11 +73,18 @@ footer {
 
 /* Summary of Skills Styling */
 .skills-list {
-    list-style-position: inside; /* Aligns bullet points closer */
-    text-align: left; /* Aligns text properly */
-    display: inline-block; /* Keeps list centered */
-    padding-left: 0; /* Removes extra space */
-    width: 80%; /* Keeps it from being too wide */
+    list-style-position: inside; /* Moves bullets closer to text */
+    padding-left: 0; /* Removes unnecessary indentation */
+    text-align: left; /* Ensures text aligns properly */
+    display: inline-block; /* Keeps list properly centered */
+    width: 80%; /* Keeps width balanced */
     margin: 0 auto; /* Centers the section */
+}
+
+/* Additional Fix: Prevents extra spacing between bullet and text */
+.skills-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adds slight spacing between bullet and text */
 }
 
