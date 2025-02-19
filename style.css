@@ -25,3 +25,12 @@ footer {
     padding: 10px;
     margin-top: 20px;
 }
+
+/* Profile Picture Styling */
+.profile-pic {
+    width: 200px; /* Adjust width as needed */
+    height: auto; /* Keeps aspect ratio */
+    border-radius: 50%; /* Makes it circular */
+    border: 3px solid #007bff; /* Blue border */
+    margin-top: 10px; /* Adds spacing */
+}
