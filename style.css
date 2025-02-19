@@ -46,3 +46,16 @@ footer {
     display: block; /* Ensures proper positioning */
     margin: 10px auto; /* Centers the image */
 }
+
+/* Subtitle Styling */
+.subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff; /* White text */
+    background-color: #343a40; /* Dark gray background */
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin: 10px auto;
+    width: 60%;
+    text-align: center;
+}
