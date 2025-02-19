@@ -26,6 +26,15 @@ footer {
     margin-top: 20px;
 }
 
+/* Fix bullet point spacing for Education */
+.education-list {
+    list-style-position: inside; /* Moves bullets closer to text */
+    padding-left: 0; /* Removes extra left space */
+    display: inline-block; /* Keeps list centered properly */
+    text-align: left; /* Aligns text inside the list */
+}
+
+
 
 /* Profile Picture Styling */
 .profile-pic {
