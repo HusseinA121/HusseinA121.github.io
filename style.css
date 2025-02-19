@@ -71,3 +71,13 @@ footer {
 }
 
 
+/* Summary of Skills Styling */
+.skills-list {
+    list-style-position: inside; /* Aligns bullet points closer */
+    text-align: left; /* Aligns text properly */
+    display: inline-block; /* Keeps list centered */
+    padding-left: 0; /* Removes extra space */
+    width: 80%; /* Keeps it from being too wide */
+    margin: 0 auto; /* Centers the section */
+}
+
