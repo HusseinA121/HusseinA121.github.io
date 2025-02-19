@@ -26,12 +26,14 @@ footer {
     margin-top: 20px;
 }
 
+
 /* Profile Picture Styling */
 .profile-pic {
-    width: 200px; /* Adjust width */
-    height: 200px; /* Set same height as width for a perfect circle */
-    object-fit: cover; /* Ensures the image does not stretch */
+    width: 150px; /* Adjust width */
+    height: 150px; /* Keep same height for a perfect circle */
+    object-fit: cover; /* Ensures image is not stretched */
     border-radius: 50%; /* Makes it circular */
-    border: 3px solid #007bff; /* Adds a blue border */
-    margin-top: 10px; /* Adds spacing */
+    border: 3px solid #007bff; /* Blue border */
+    display: block; /* Ensures proper positioning */
+    margin: 10px auto; /* Centers the image */
 }
