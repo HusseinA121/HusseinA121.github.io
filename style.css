@@ -60,3 +60,12 @@ footer {
     margin: 5px auto 0 auto; /* Reduces space below */
 }
 
+
+/* Fix bullet point alignment for Experience & Extracurriculars */
+.experience-list, .projects-list {
+    list-style-position: inside; /* Moves bullets closer to text */
+    padding-left: 0; /* Removes extra left space */
+    display: inline-block; /* Keeps list centered properly */
+    text-align: left; /* Aligns text inside the list */
+}
+
