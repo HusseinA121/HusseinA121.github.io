@@ -14,6 +14,20 @@
 </head>
 <body>
 
+<!-- Navigation Menu -->
+<nav class="navbar">
+    <div class="menu-toggle" onclick="toggleMenu()">
+        ☰ <!-- This is the 3-bar hamburger icon -->
+    </div>
+    <ul class="nav-links">
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Extracurriculars/Projects</a></li>
+        <li><a href="#skills">Summary of Skills</a></li>
+    </ul>
+</nav>
+
+
   <header>
     <h1>
         <em>Hussein Al-Ansari</em> 
@@ -37,7 +51,7 @@
 
 
 
-<h2>Education</h2>
+<h2 id="education">Education</h2>
 
 <p><strong>McMaster University</strong> | Hamilton, ON</p>
 <p><strong>Automation Engineering Technology</strong> | Expected Dec 2025</p>
@@ -48,7 +62,7 @@
 </ul>
 
 
-  <h2>Experience</h2>
+<h2 id="experience">Experience</h2>
 
 <p><strong>Teaching Assistant (TA)</strong><br>
 <a href="https://www.mcmaster.ca/" target="_blank">McMaster University</a> | Hamilton, ON | 4 Months | January 2025 – April 2025</p>
@@ -74,7 +88,7 @@
     <li>Utilized AutoCAD to meticulously design professional layouts for designated sections of industrial plants, ensuring optimal spatial utilization and efficiency.</li>
 </ul>
 
-<h2>Extracurriculars/Projects</h2>
+<h2 id="projects">Extracurriculars/Projects</h2>
 
 <p><strong>3-Level Elevator Control System</strong><br>
 <a href="https://www.mcmaster.ca/" target="_blank">McMaster University</a> | Hamilton, ON | 1 Month | November 2024 – December 2024</p>
@@ -119,7 +133,7 @@
 </ul>
 
 
-<h2>Summary of Skills</h2>
+<h2 id="skills">Summary of Skills</h2>
 
 <ul class="skills-list">
     <li><strong>Programming and Software:</strong> C/C++, Python, HTML, FPGA programming, PLC programming, MATLAB/Simulink, LabVIEW, SCADA systems, IoT and Cloud Computing, SolidWorks & AutoCAD, ROBOGUIDE.</li>
@@ -134,5 +148,11 @@
         &#169; 2025 Hussein Al-Ansari
     </footer>
 
+<script>
+    function toggleMenu() {
+        document.querySelector('.nav-links').classList.toggle('show');
+    }
+</script>
 </body>
 </html>
+
