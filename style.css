@@ -88,3 +88,20 @@ footer {
     gap: 10px; /* Adds slight spacing between bullet and text */
 }
 
+/* Contact Information Styling */
+.contact-info {
+    margin-top: 10px; /* Adds slight spacing from the subtitle */
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contact-info a {
+    color: #ffffff; /* White text */
+    text-decoration: none; /* Removes underline */
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline; /* Underlines links when hovered */
+}
+
